@@ -1,5 +1,5 @@
 package shared
 
 func GetAnswer() int {
-	return 40
+	return 27982
 }
