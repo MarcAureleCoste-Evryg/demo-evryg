@@ -20,7 +20,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
 
-	resp := Response{Message: "Hello World!"}
+	resp := Response{Message: "Hello World!fhwiefhwoife"}
 	json.NewEncoder(w).Encode(resp)
 }
 
